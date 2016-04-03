@@ -2,7 +2,7 @@
 #   henning mueller <mail@nning.io>
 
 pkgname=paxctld
-pkgver=1.0
+pkgver=1.1
 pkgrel=2
 pkgdesc='PaX flags maintenance daemon'
 arch=(i686 x86_64)
@@ -38,6 +38,6 @@ package() {
     "$pkgdir/usr/lib/systemd/system/$pkgname.service"
 }
 
-sha256sums=('7a6b322b02f583f4c93a7090a3f774dc069a014893351f0d544de377d3cdadf0'
+sha256sums=('95c2805dc46edd443afceef283adf09943c6a62858944b516c9f5c0e06f8e99f'
             'SKIP'
             'bedd98fa6bd95ff00af420e6ca1811f792825d9fb9078218e16b78653ad74cff')
