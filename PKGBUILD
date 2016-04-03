@@ -13,7 +13,7 @@ backup=(
   etc/$pkgname.conf
 )
 source=(
-  http://grsecurity.net/paxctld/paxctld_1.0.orig.tar.gz{,.sig}
+  http://grsecurity.net/paxctld/paxctld_1.1.orig.tar.gz{,.sig}
   $pkgname.service
 )
 
